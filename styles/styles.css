@@ -1,0 +1,28 @@
+body{
+    background-color:#ffff;
+}
+.bg-investir{
+    background-color:#046F87;
+}
+.saldo{
+    background-color:#FAFAFA;
+}
+.movimentos{
+    background-color:#D9D9D9;
+}
+@media (max-width: 991px) {
+    .sidebar{
+        background-color: rgba(535353, 535353, 535353,0.8);
+
+    }
+    .help{
+        max-width:""
+    }
+    .saldo{
+        padding:3px;
+        border-radius:5px;
+        display-flex:flex;
+        justify-content:space-between;
+        align-content:center;
+    }
+}
